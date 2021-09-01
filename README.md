@@ -139,5 +139,9 @@ Les messages de réussite
 "message" : "Mms envoyé au 229xxxxxxxx"
 }`
 
+Cette réponse est retournée avec un code` 200` lorsque le message a été envoyé sans aucun problème rencontré.
 
+
+
+`La taille totale des fichiers doit être inférieure ou égale à 5 MB`
 
