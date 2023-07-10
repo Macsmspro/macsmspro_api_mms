@@ -66,7 +66,7 @@ OU
 
 `"error" : {
 "message" : "message d'erreur"
-}
+}`
 
 <br>
 
@@ -98,7 +98,7 @@ Cette erreur est retournée avec un code `405` lorsque la requete envoyée n'est
 
 `"error" : {
 "message" : "Crédit insuffisant"
-}
+}`
 
 
 <br>
@@ -130,15 +130,15 @@ Il y a un problème avec l'opérateur de téléphonie mobile du pays.
 "message" : {
 "token" : "Le token est requis"
 }
-}
+}`
 
 <br>
 
-Cette erreur est retournée avec un code 422 lorsque la valeur du token est vide ou NULL
+Cette erreur est retournée avec un code `422` lorsque la valeur du token est `vide` ou `NULL`
 
  <br>
 
-"error" : {
+`"error" : {
 "message" : {
 "token" : "token invalid"
 }
@@ -146,7 +146,7 @@ Cette erreur est retournée avec un code 422 lorsque la valeur du token est vide
 
 <br>
 
-Cette erreur est retournée avec un code 401 lorsque la valeur du token envoyée ne correspond à aucun compte utilisateur du système.
+Cette erreur est retournée avec un code `401` lorsque la valeur du token envoyée ne correspond à aucun compte utilisateur du système.
 
 <br>
 
@@ -160,7 +160,7 @@ Cette erreur est retournée avec un code 401 lorsque la valeur du token envoyée
 
 <br>
 
-Cette erreur est retournée avec un code 422 lorsque la valeur du numero de telephone est vide ou NULL 
+Cette erreur est retournée avec un code `422` lorsque la valeur du numero de telephone est `vide` ou `NULL`
 
 <br>
 
@@ -174,7 +174,7 @@ Cette erreur est retournée avec un code 422 lorsque la valeur du numero de tele
 
 <br>
 
-Cette erreur est retournée avec un code 422 lorsque la valeur du message est vide ou NULL
+Cette erreur est retournée avec un code `422` lorsque la valeur du message est vide ou `NULL`
 
  <br>
 
