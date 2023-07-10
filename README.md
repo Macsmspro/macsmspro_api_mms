@@ -90,14 +90,23 @@ OU
 }`
 
 <br>
+
 Cette erreur est retournée avec un code `405` lorsque la requete envoyée n'est pas de type `POST`
+
 <br>
+
+
 `"error" : {
 "message" : "Crédit insuffisant"
 }
+
+
 <br>
+
+
 Cette erreur est retournée avec un code 403 lorsque le compte utilisateur
  ne dispose pas d'assez de crédit pour effectuer l'opération.
+
 <br>
 
 "error" : {
@@ -112,15 +121,23 @@ L'appareil que vous essayez d'atteindre n'a pas un signal suffisant.
 L'appareil ne peut pas recevoir de MMS (par exemple, le numéro de téléphone appartient à une ligne fixe).
 Le numéro de destination figure sur le registre national des numéros de téléphone exclus du pays par le réseau de destination.
 Il y a un problème avec l'opérateur de téléphonie mobile du pays.
+
+
 <br>
+
+
 `"error" : {
 "message" : {
 "token" : "Le token est requis"
 }
 }
+
 <br>
 
-Cette erreur est retournée avec un code 422 lorsque la valeur du token est vide ou NULL <br>
+Cette erreur est retournée avec un code 422 lorsque la valeur du token est vide ou NULL
+
+ <br>
+
 "error" : {
 "message" : {
 "token" : "token invalid"
@@ -128,7 +145,11 @@ Cette erreur est retournée avec un code 422 lorsque la valeur du token est vide
 }`
 
 <br>
-Cette erreur est retournée avec un code 401 lorsque la valeur du token envoyée ne correspond à aucun compte utilisateur du système.<br>
+
+Cette erreur est retournée avec un code 401 lorsque la valeur du token envoyée ne correspond à aucun compte utilisateur du système.
+
+<br>
+
 `"error" : {
 "messages" : [
 {
@@ -136,8 +157,13 @@ Cette erreur est retournée avec un code 401 lorsque la valeur du token envoyée
 }
 ]
 }`
+
 <br>
-Cette erreur est retournée avec un code 422 lorsque la valeur du numero de telephone est vide ou NULL <br>
+
+Cette erreur est retournée avec un code 422 lorsque la valeur du numero de telephone est vide ou NULL 
+
+<br>
+
 `"error" : {
 "messages" : [
 {
@@ -145,8 +171,13 @@ Cette erreur est retournée avec un code 422 lorsque la valeur du numero de tele
 }
 ]
 }`
+
 <br>
-Cette erreur est retournée avec un code 422 lorsque la valeur du message est vide ou NULL <br>
+
+Cette erreur est retournée avec un code 422 lorsque la valeur du message est vide ou NULL
+
+ <br>
+
 `"error" : {
 "messages" : [
 {
@@ -154,8 +185,13 @@ Cette erreur est retournée avec un code 422 lorsque la valeur du message est vi
 }
 ]
 }`
+
 <br>
-Cette erreur est retournée avec un code `422` lorsque la valeur du nom est vide ou` NULL` <br>
+
+Cette erreur est retournée avec un code `422` lorsque la valeur du nom est vide ou` NULL`
+
+ <br>
+
 `"error" : {
 "messages" : [
 {
@@ -163,9 +199,15 @@ Cette erreur est retournée avec un code `422` lorsque la valeur du nom est vide
 }
 ]
 }`
+
 <br>
+
 Cette erreur est retournée avec un code 422 lorsque la valeur du nom dépasse les dix caractères
-Plusieurs messages d'erreur peuvent se briquer comme suit <br>
+Plusieurs messages d'erreur peuvent se briquer comme suit 
+
+<br>
+
+
 `"error" : {
 "messages" : [
 {
@@ -177,10 +219,16 @@ Plusieurs messages d'erreur peuvent se briquer comme suit <br>
 }
 ]
 }`
-<br>
-Cette erreur est retournée avec un code `422` lorsque plusieurs données ne sont pas vérifiées à la fois `NULL` <br>
 
-`Envoi Réussi` <br>
+<br>
+
+Cette erreur est retournée avec un code `422` lorsque plusieurs données ne sont pas vérifiées à la fois `NULL`
+
+ <br>
+
+`Envoi Réussi` 
+
+<br>
 
 `"success" : {
 "message" : "Mms envoyé au 44xxxxxxxx"
