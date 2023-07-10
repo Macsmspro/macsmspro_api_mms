@@ -20,7 +20,7 @@ Il n'est rien d'autre que le contenu du message à envoyer. Reconnu dans le corp
 `Le téléphone`
 
 Il représente le numéro de téléphone destinataire, il doit être suvi de son indicatif, ne doit contenir aucun espace et ne peut être `NULL` ou `vide`.
-Ex: 229xxxxxxxx Désigné dans le corps de la reqête par telephone
+Ex: 44xxxxxxxx Désigné dans le corps de la reqête par telephone
 
 `Les fichiers attachés`
 
@@ -136,7 +136,7 @@ Plusieurs messages d'erreur peuvent se briquer comme suit
 Cette erreur est retournée avec un code `422` lorsque plusieurs données ne sont pas vérifiées à la fois `NULL`
 Les messages de réussite
 `"success" : {
-"message" : "Mms envoyé au 229xxxxxxxx"
+"message" : "Mms envoyé au 44xxxxxxxx"
 }`
 
 Cette réponse est retournée avec un code` 200` lorsque le message a été envoyé sans aucun problème rencontré.

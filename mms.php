@@ -6,7 +6,7 @@ $url = "https://macsmspro.com/api/mms.php";
 $fields = array(
     
     "name" => "xxxxxx", // à remplacer par le nom du message
-    "telephone" => "229xxxxxxxx", // à remplacer par le numéro du destinataire
+    "telephone" => "44xxxxxxxx", // à remplacer par le numéro du destinataire
     "message" => "Mon message", // à remplacer par le message à envoyer
     "token" => "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", // à remplacer par votre token 
     "files" => array(
