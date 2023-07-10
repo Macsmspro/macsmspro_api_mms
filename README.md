@@ -1,43 +1,58 @@
 # api_mms
 Envoi de messages professionnels multimedia
 
+<br>
+
 `1- URL API`
 
+<br>
 
 L' API est appelée par l'url `"https://macsmspro.com/api/mms.php"` . Il autorise les requetes POST et requiert en body un token directement lié à votre compte grâce auquel les envois sont effectués.
 Le token fournit les informations nécessaires à l'api pour reconnaitre le compte utilisateur lors d'une requête. Lorsque vous possédez un token et que vous en génerez un nouveau, cette action écrasse l'ancien token et le rend ainsi obsolète. Toutes requetes envoyées par ce dernier ne sera plus autorisé par l'api.
-
+<br>
 
 `2- CORPS DE LA REQUETE`
-
+<br>
 
 `Le Nom`
 Il s'agit du nom que portera le message. Il a les propriétés de ne pas être NULL ou vide, et doit pas excéder plus de dix (10) caratères. Désigné dans le corps de la reqête par name.
+<br>
 
 `Le Message`
 Il n'est rien d'autre que le contenu du message à envoyer. Reconnu dans le corps de la requête par la propriété message, il est requis et ne peut donc être `NULL` ou `vide`.
+<br>
 
 `Le téléphone`
 
 Il représente le numéro de téléphone destinataire, il doit être suvi de son indicatif, ne doit contenir aucun espace et ne peut être `NULL` ou `vide`.
 Ex: 44xxxxxxxx Désigné dans le corps de la reqête par telephone
 
+<br>
+
 `Les fichiers attachés`
 
 Il s'agit de la liste des fichiers attachés au message MMS, de type array il contient les urls vers chaque ficher.
 
+<br>
+
 `Le token`
 Il est question du token que vous avez généré pour votre compte, il est requis pour tout envoi vers API. Il est utilisé dans le corps de reqête sous le même nom.
 
-
+<br>
 
 `3- REPONSES DU SERVEUR`
 
-
+<br>
 
 Le serveur retourne deux catégories possible de réponse lors d'une rêquete. Nous avons les retours de type `ERROR` et les retours de type `SUCCESS`.
+
+<br>
+
 Les messages d'erreur
 Les messages d'erreur sont sous le format:
+
+<br>
+
 `"error" : {
 "message" : {
 "nom de l'erreur" : "message d'erreur"
@@ -56,6 +71,7 @@ OU
 ]
 }`
 
+<br>
 
 `Quelques erreurs`
 
@@ -139,6 +155,7 @@ Les messages de réussite
 "message" : "Mms envoyé au 44xxxxxxxx"
 }`
 
+<br>
 Cette réponse est retournée avec un code` 200` lorsque le message a été envoyé sans aucun problème rencontré.
 
 
